@@ -1,4 +1,4 @@
-package study03.model;
+package racing.model;
 
 import java.util.Random;
 
@@ -8,7 +8,7 @@ import java.util.Random;
  *
  * @version 1.0.0
  *
- * 2021-11-10
+ * 2021-11-12
  *
  * Copyright tnals1422
  */

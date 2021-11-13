@@ -1,4 +1,4 @@
-package study02;
+package stringcalculator;
 
 import java.util.Objects;
 

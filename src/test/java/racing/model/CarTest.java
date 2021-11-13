@@ -1,4 +1,4 @@
-package study03.model;
+package racing.model;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -11,9 +11,8 @@ class CarTest {
     @ValueSource(ints = {4, 5, 6, 7, 8, 9})
     @DisplayName("전진")
     void forward(int condition) {
-        Car car = new Car();
+        Car car = new Car("pobi");
         car.moveOnSatisfiedCondition(condition);
-
         assertThat(car.getPosition()).isEqualTo(1);
     }
 
@@ -21,7 +20,7 @@ class CarTest {
     @ValueSource(ints = {1, 2, 3})
     @DisplayName("움직이지 않음")
     void hold(int condition) {
-        Car car = new Car();
+        Car car = new Car("pobi");
         car.moveOnSatisfiedCondition(condition);
         assertThat(car.getPosition()).isEqualTo(0);
     }

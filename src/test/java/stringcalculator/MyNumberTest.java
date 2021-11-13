@@ -1,4 +1,4 @@
-package study02;
+package stringcalculator;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
